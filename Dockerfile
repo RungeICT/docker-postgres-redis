@@ -1,4 +1,4 @@
-FROM postgres:9.5.1
+FROM postgres:9.5.4
 
 RUN apt-get update \
   && apt-get -y install git gcc make libhiredis-dev libpq-dev postgresql-server-dev-9.5 \
